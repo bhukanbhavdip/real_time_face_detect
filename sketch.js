@@ -76,7 +76,7 @@ function drawExpressions(detections, x, y, textYSpace) {
     textFont('Helvetica Neue');
     textSize(20);
     noStroke();
-    fill(49,69,255);
+    fill(10);
 
     text("Expression: " + dominantExpression, x, y);
   } else {
